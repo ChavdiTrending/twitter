@@ -51,7 +51,4 @@ The `scrape.py` script collects tweet ids. If you know a tweet's id number, you 
 - run `python3 get_metadata.py`
 - this will get metadata for every tweet id in `all_ids.json`
 - it will create 4 files
-  - `username.json` (master file with all metadata)
-  - `username.zip` (a zipped file of the master file with all metadata)
-  - `username_short.json` (smaller master file with relevant metadata fields)
-  - `username.csv` (csv version of the smaller master file)
+  - `username.csv` (csv version of the smaller master file which has all the ID's of particular Hashtag)
